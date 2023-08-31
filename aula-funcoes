@@ -1,0 +1,66 @@
+//João Felipe M. F.
+
+//Exercicio A1:
+/*
+//a:
+10
+50
+*/
+/*
+//b:
+'Invalid or unexpected token'
+*/
+/*
+//Exercicio A2:
+/*
+//a:
+É uma função que recebe um texto e transforma ele em minuscula e depois vê se tem cenoura no texto.
+*/
+/*
+//b:
+true; true; false;
+*/
+////Exercicio B1:
+/*
+//a:
+function sobreMim(sobreMim) {
+    console.log(sobreMim)
+}
+
+sobreMim("Eu sou João Felipe, tenho 29 anos, moro em São Leopoldo e sou atendente.")
+*/
+/*
+//b:
+return "Eu sou" + nome + ", tenho "
+*/
+/*
+//Exercicio B2:
+/*
+//a:
+function somaNumeros(a, b){
+    return a + b;
+}
+*/
+/*
+//b:
+function maiorOuIgual(a, b){
+    return (a>=b);
+}
+*/
+/*
+//c:
+function verificarPar(a){
+    return (a % 2 === 0);
+}
+*/
+/*
+//d:
+function tamanhoEMaiusculas(a){
+    return a.length + " " + a.toUpperCase ();
+}
+*/
+
+//Exercicio B3:
+let primeiroNumero = Number(prompt("Insira 1 numero"));
+let segundoNumero = Number(prompt("Insira 1 numero"));
+console.log("Números inseridos:" + primeiroNumero, segundoNumero);
